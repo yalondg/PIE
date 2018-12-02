@@ -8,7 +8,21 @@ $(document).ready(function(){
 	header_height_static = $(".site-header.static").outerHeight(),
 	fitscreen 			 = window_height - header_height;
 
+    /*function dropHover(){
+        this.style.opacity = 30;
+    }*/
 
+    /*Dropzone.options.fileupload = {
+        paramName = "fileIn",
+        maxFilesize: 7,
+        color: "white",
+        width: "700px",
+
+        accept: function(file, done){
+            console.log("hello");
+            done("test");
+        }
+    };*/
 	$(".fullscreen").css("height", window_height)
 	$(".fitscreen").css("height", fitscreen);
 

@@ -2183,7 +2183,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 .primary-btn:focus {
     outline: none
 }
-
+#fileupload{
+   height: 100px;
+   width: 500px;
+    border: 3px solid white;
+    
+    
+}
 .primary-btn span {
     color: #fff;
     position: absolute;
